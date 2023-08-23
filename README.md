@@ -1,41 +1,21 @@
-# Challenge One - on-the-job ticket
-The very first one of my challenges within UofU Bootcamp
+# <Sikotic Horiseon Page Code Overhaul>
 
-Project Read Me: 
-This week is an odd-numbered week, so your Challenge is an on-the-job ticket&mdash;meaning that you'll begin with starter code that you need to modify. 
+## Description
 
-**Refactoring** existing code (improving it without changing what it does) to meet a certain set of standards or to implement a new technology is a common task for front-end and junior developers. For this particular Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+This project was to take existing code for a company page and overhaul it on the code side so that the page looks the same but is more user accessible and contains more semantic elements. I took on this project to get a better handle on HTML and CSS, it helped me work through and notice better how the HTML and CSS elements affect eachother while also seeing how overwhelming lots of unnecessicary code can be. 
 
-> **Important**: When working with someone else's code, you should adhere to the **Scout Rule**&mdash;always leave the code a little cleaner than when you found it.
+One of the first issues that I ran into with this project was trying to get the link to work, as I began fixing the HTML sheet to include more semantic elements and be easier to read it broke the link pretty quickly. I found myself fighting with that link multiple times throughout the process as I would change this or that or the other and where the link had been working it would just stop again.
 
-An increasingly important consideration for businesses, web **accessibility** ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards. Accessibility is good for business&mdash;for one thing, accessible sites rank higher in search engines like Google. It also helps companies avoid litigation, which might arise if people with disabilities can't access a website.
+I found the best way to get past this issue and what helped me resolve everything in the end was to take it part by part. I focused first on just getting the semantic elements into the HTML sheet and disreguarded how the CSS was broken for the mean time. When I began to move to fixing the CSS, it was easy to see then how things were getting broken and fix them as I worked my way down the CSS sheet. Once I had both fixed, it was a lot easier to see why the link was not working - and get it to work properly!
 
-Accessibility can include complex requirements, but your tech lead has given you a small list of specific criteria for this project. These criteria are documented in the Acceptance Criteria section.
+## Usage
 
-To impress clients, you should always exceed expectations and improve the codebase for long-term sustainability. For example, check that all links are functioning correctly. You can also increase the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+This website is intended for informational use for the company Horiseon, and should now include many more semantic elements to allow it to be more accessable to a wider range of audience via the semantic elements with a screen reader.
 
-Are you ready to begin? Here are this week's Challenge requirements.
+To take a look at the semantic elements without a screen reader, you will need to use the google chrome dev tools by right clicking and choosing the inspect option. This will allow you to see the semantic HTML of every element on the page.
 
-## User Story
+Please access the website here:
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+## Credits
 
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+Original code and page provided by Hroiseon (but really from the class project in this case.)
